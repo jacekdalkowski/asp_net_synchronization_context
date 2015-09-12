@@ -1,0 +1,36 @@
+2015-09-09 23:14:26,510 [5] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.IndexConfigureAwaitFalse(): 
+2015-09-09 23:14:26,545 [5] INFO   asp_net_synchronization_context.Controllers.HomeController - Thread.CurrentThread.ManagedThreadId: 5
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequest
+ 
+2015-09-09 23:14:26,564 [5] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-09 23:14:26,568 [5] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 5
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequest
+ 
+2015-09-09 23:14:27,117 [6] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-09 23:14:27,122 [6] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 6
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequest
+ 
+2015-09-09 23:14:27,128 [12] INFO   asp_net_synchronization_context.Controllers.HomeController - In HomeController.IndexConfigureAwaitFalse(), after running async method with ConfigureAwait(false): 
+2015-09-09 23:14:27,136 [12] INFO   asp_net_synchronization_context.Controllers.HomeController - Thread.CurrentThread.ManagedThreadId: 12
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: en-US
+SynchronizationContext.Current: null
+HttpContext.Current: null
+
+ 

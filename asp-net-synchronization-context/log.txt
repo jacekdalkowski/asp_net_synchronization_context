@@ -1,0 +1,204 @@
+2015-09-12 13:52:31,491 [7] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.IndexConfigureAwaitFalse(): 
+2015-09-12 13:52:31,496 [7] INFO   asp_net_synchronization_context.Controllers.HomeController - Thread.CurrentThread.ManagedThreadId: 7
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	method: IndexConfigureAwaitFalse
+
+ 
+2015-09-12 13:52:31,500 [7] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-12 13:52:31,502 [7] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 7
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	method: IndexConfigureAwaitFalse
+
+ 
+2015-09-12 13:52:32,000 [7] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-12 13:52:32,008 [7] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 7
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	method: IndexConfigureAwaitFalse
+
+ 
+2015-09-12 13:52:32,012 [7] INFO   asp_net_synchronization_context.Controllers.HomeController - In HomeController.IndexConfigureAwaitFalse(), after running async method with ConfigureAwait(false): 
+2015-09-12 13:52:32,015 [7] INFO   asp_net_synchronization_context.Controllers.HomeController - Thread.CurrentThread.ManagedThreadId: 7
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: en-US
+SynchronizationContext.Current: null
+HttpContext.Current: null
+HttpContext.Current.Session: null
+
+ 
+2015-09-12 14:22:24,119 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.IndexTaskOnThreadpool(): 
+2015-09-12 14:22:24,160 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Thread.CurrentThread.ManagedThreadId: 6
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	Session entry:method: IndexTaskOnThreadpool
+
+ 
+2015-09-12 14:22:24,189 [8] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-12 14:22:24,195 [8] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 8
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: en-US
+SynchronizationContext.Current: null
+HttpContext.Current: null
+HttpContext.Current.Session: null
+
+ 
+2015-09-12 14:22:24,802 [8] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-12 14:22:24,807 [8] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 8
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: en-US
+SynchronizationContext.Current: null
+HttpContext.Current: null
+HttpContext.Current.Session: null
+
+ 
+2015-09-12 14:22:24,815 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - In HomeController.Index(), after running async method: 
+2015-09-12 14:22:24,817 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Thread.CurrentThread.ManagedThreadId: 6
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	Session entry:method: IndexTaskOnThreadpool
+
+ 
+2015-09-12 14:26:18,743 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.IndexTaskOnThreadpool(): 
+2015-09-12 14:26:18,764 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Thread.CurrentThread.ManagedThreadId: 6
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	Session entry:method: IndexTaskOnThreadpool
+
+ 
+2015-09-12 14:26:18,785 [7] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-12 14:26:18,788 [7] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 7
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: en-US
+SynchronizationContext.Current: null
+HttpContext.Current: null
+HttpContext.Current.Session: null
+
+ 
+2015-09-12 14:26:19,328 [7] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-12 14:26:19,332 [7] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 7
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: en-US
+SynchronizationContext.Current: null
+HttpContext.Current: null
+HttpContext.Current.Session: null
+
+ 
+2015-09-12 14:26:19,340 [7] INFO   asp_net_synchronization_context.Controllers.HomeController - In HomeController.Index(), after running async method: 
+2015-09-12 14:26:19,343 [7] INFO   asp_net_synchronization_context.Controllers.HomeController - Thread.CurrentThread.ManagedThreadId: 7
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	Session entry:method: IndexTaskOnThreadpool
+
+ 
+2015-09-12 14:29:31,663 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.IndexAsync(): 
+2015-09-12 14:29:31,714 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Thread.CurrentThread.ManagedThreadId: 6
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	Session entry: method - IndexAsync
+
+ 
+2015-09-12 14:29:32,595 [6] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-12 14:29:32,603 [6] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 6
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	Session entry: method - IndexAsync
+
+ 
+2015-09-12 14:29:32,668 [6] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-12 14:29:32,671 [6] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 6
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	Session entry: method - IndexAsync
+
+ 
+2015-09-12 14:29:32,675 [6] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-12 14:29:32,678 [6] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 6
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	Session entry: method - IndexAsync
+
+ 
+2015-09-12 14:29:33,522 [6] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-12 14:29:33,526 [6] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 6
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	Session entry: method - IndexAsync
+
+ 
+2015-09-12 14:29:33,559 [12] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-12 14:29:33,563 [12] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 12
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	Session entry: method - IndexAsync
+
+ 
+2015-09-12 14:29:33,831 [12] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-12 14:29:33,836 [12] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 12
+	Thread.CurrentThread.IsBackground: True
+	Thread.CurrentThread.IsThreadPoolThread: True
+	Thread.CurrentThread.CurrentCulture: pl-PL
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext
+HttpContext.Current: System.Web.HttpContext
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState
+	Session entry: method - IndexAsync
+
+ 

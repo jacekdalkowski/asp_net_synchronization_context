@@ -1,0 +1,148 @@
+2015-09-08 23:20:01,288 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:20:01,341 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:20:01,355 [6] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:20:01,358 [6] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:23:03,298 [5] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:23:03,316 [5] INFO   asp_net_synchronization_context.Controllers.HomeController - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:23:03,330 [5] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:23:03,336 [5] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:23:04,026 [5] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-08 23:23:04,030 [5] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:24:53,008 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:24:53,033 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:24:53,040 [6] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:24:53,043 [6] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:24:53,099 [6] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:24:53,102 [6] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:24:53,108 [6] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:24:53,111 [6] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:24:53,897 [11] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-08 23:24:53,901 [11] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:24:53,913 [11] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-08 23:24:53,917 [11] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:24:54,117 [6] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-08 23:24:54,121 [6] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:30:10,128 [5] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:30:10,146 [5] INFO   asp_net_synchronization_context.Controllers.HomeController - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:30:10,182 [5] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:31:53,842 [5] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:31:55,169 [5] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:31:55,965 [5] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:31:58,570 [5] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:32:06,577 [5] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:32:06,601 [6] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-08 23:32:06,605 [6] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:32:07,237 [5] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-08 23:32:07,241 [5] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:32:07,653 [5] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-08 23:32:07,657 [5] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:37:23,112 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:37:23,128 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:37:23,156 [6] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:37:23,160 [6] INFO   asp_net_synchronization_context.AsyncService - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:38:58,250 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:38:58,266 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - SynchronizationContext.Current.ToString(): System.Web.AspNetSynchronizationContext
+HttpContext.Current != null: True
+HttpContext.Current.Request: System.Web.HttpRequest
+ 
+2015-09-08 23:38:58,294 [7] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:40:49,169 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:40:51,160 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - System.Web.AspNetSynchronizationContext 
+2015-09-08 23:40:51,196 [7] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:42:22,288 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:42:24,176 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - System.Web.AspNetSynchronizationContext 
+2015-09-08 23:42:24,204 [7] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:42:29,669 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:42:31,066 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - System.Web.AspNetSynchronizationContext 
+2015-09-08 23:42:31,070 [7] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:44:54,842 [7] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:44:59,187 [7] INFO   asp_net_synchronization_context.Controllers.HomeController -  
+2015-09-08 23:44:59,212 [6] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:44:59,219 [6] INFO   asp_net_synchronization_context.AsyncService -  
+2015-09-08 23:45:00,168 [6] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-08 23:45:00,216 [6] INFO   asp_net_synchronization_context.AsyncService -  
+2015-09-08 23:45:16,408 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:45:16,416 [6] INFO   asp_net_synchronization_context.Controllers.HomeController -  
+2015-09-08 23:45:16,420 [6] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:45:16,424 [6] INFO   asp_net_synchronization_context.AsyncService -  
+2015-09-08 23:50:50,684 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:50:50,700 [6] INFO   asp_net_synchronization_context.Controllers.HomeController -  
+2015-09-08 23:50:50,753 [7] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:50:50,757 [7] INFO   asp_net_synchronization_context.AsyncService -  
+2015-09-08 23:52:04,348 [7] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-08 23:52:05,273 [7] INFO   asp_net_synchronization_context.AsyncService -  
+2015-09-08 23:52:21,753 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:52:21,757 [6] INFO   asp_net_synchronization_context.Controllers.HomeController -  
+2015-09-08 23:52:21,765 [7] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:52:21,769 [7] INFO   asp_net_synchronization_context.AsyncService -  
+2015-09-08 23:52:25,097 [14] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-08 23:52:25,823 [14] INFO   asp_net_synchronization_context.AsyncService -  
+2015-09-08 23:52:30,314 [6] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.Index(): 
+2015-09-08 23:52:30,322 [6] INFO   asp_net_synchronization_context.Controllers.HomeController -  
+2015-09-08 23:52:30,326 [18] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): 
+2015-09-08 23:52:30,330 [18] INFO   asp_net_synchronization_context.AsyncService -  
+2015-09-08 23:52:46,609 [12] INFO   asp_net_synchronization_context.AsyncService - Inside AsyncService.IOBoundMethod(), after async resource download: 
+2015-09-08 23:52:46,620 [12] INFO   asp_net_synchronization_context.AsyncService -  
