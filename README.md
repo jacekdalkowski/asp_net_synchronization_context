@@ -4,6 +4,10 @@ Experiments regarding synchronisation and execution context flow in asp.net
 References:
 ExecutionContext vs SynchronizationContext: http://blogs.msdn.com/b/pfxteam/archive/2012/06/15/executioncontext-vs-synchronizationcontext.aspx
 Deadlock despite using ConfigureAwait(false): http://stackoverflow.com/questions/25588659/deadlock-even-after-using-configureawaitfalse-in-asp-net-flow
+http://vegetarianprogrammer.blogspot.com/2012/12/understanding-synchronizationcontext-in.html
+https://msdn.microsoft.com/en-us/magazine/gg598924.aspx
+https://msdn.microsoft.com/en-us/library/system.threading.synchronizationcontext.aspx
+http://piers7.blogspot.co.uk/2005/11/threadstatic-callcontext-and_02.html
 
 ================================================================
 
