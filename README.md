@@ -3,7 +3,7 @@ Experiments regarding synchronisation and execution context flow in asp.net
 
 ================================================================
 
-public async Task<JsonResult> IndexAsync()<br />
+public async Task&lt;JsonResult&gt; IndexAsync()<br />
 {<br />
     ...<br />
     Task<long> t1 = AsyncService.IOBoundMethod();<br />
@@ -69,7 +69,7 @@ public JsonResult IndexAsynchronousOperationCannotBeStarted()<br />
 
 ================================================================<br /><br />
 
-public async Task<JsonResult> IndexDeadlock()<br />
+public async Task&lt;JsonResult&gt; IndexDeadlock()<br />
 {<br />
     ...<br />
     long t1 = AsyncService.IOBoundMethod().Result;
@@ -100,7 +100,7 @@ System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpS
 
 ================================================================<br /><br />
 
-public async Task<JsonResult> IndexConfigureAwaitFalse()<br />
+public async Task&lt;JsonResult&gt; IndexConfigureAwaitFalse()<br />
 {<br />
     ...<br />
     long t1 = await AsyncService.IOBoundMethod().ConfigureAwait(false);
@@ -234,7 +234,7 @@ System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpS
 
 ================================================================<br /><br /><br />
 
-public async Task<JsonResult> IndexTaskOnThreadpoolAsync()<br />
+public async Task&lt;JsonResult&gt; IndexTaskOnThreadpoolAsync()<br />
 {<br />
     ...<br />
     long result = await Task.Run(async () => <br />
