@@ -1,6 +1,10 @@
 # asp_net_synchronization_context
 Experiments regarding synchronisation and execution context flow in asp.net
 
+References:
+ExecutionContext vs SynchronizationContext: http://blogs.msdn.com/b/pfxteam/archive/2012/06/15/executioncontext-vs-synchronizationcontext.aspx
+Deadlock despite using ConfigureAwait(false): http://stackoverflow.com/questions/25588659/deadlock-even-after-using-configureawaitfalse-in-asp-net-flow
+
 ================================================================
 
 public async Task&lt;JsonResult&gt; IndexAsync()<br />
