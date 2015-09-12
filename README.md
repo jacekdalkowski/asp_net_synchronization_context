@@ -76,6 +76,27 @@ public async Task<JsonResult> IndexDeadlock()<br />
     ...<br />
 }<br /><br />
 
+2015-09-12 17:04:04,581 [12] INFO   asp_net_synchronization_context.Controllers.HomeController - Entering HomeController.IndexDeadlock(): <br />
+2015-09-12 17:04:04,587 [12] INFO   asp_net_synchronization_context.Controllers.HomeController - Thread.CurrentThread.ManagedThreadId: 12<br />
+	Thread.CurrentThread.IsBackground: True<br />
+	Thread.CurrentThread.IsThreadPoolThread: True<br />
+	Thread.CurrentThread.CurrentCulture: pl-PL<br />
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext<br />
+HttpContext.Current: System.Web.HttpContext<br />
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState<br />
+	Session entry: method - IndexDeadlock<br />
+<br /><br />
+ 
+2015-09-12 17:04:04,591 [12] INFO   asp_net_synchronization_context.AsyncService - Entering AsyncService.IOBoundMethod(): <br />
+2015-09-12 17:04:04,593 [12] INFO   asp_net_synchronization_context.AsyncService - Thread.CurrentThread.ManagedThreadId: 12<br />
+	Thread.CurrentThread.IsBackground: True<br />
+	Thread.CurrentThread.IsThreadPoolThread: True<br />
+	Thread.CurrentThread.CurrentCulture: pl-PL<br />
+SynchronizationContext.Current: System.Web.AspNetSynchronizationContext<br />
+HttpContext.Current: System.Web.HttpContext<br />
+System.Web.HttpRequestHttpContext.Current.Session: System.Web.SessionState.HttpSessionState<br />
+	Session entry: method - IndexDeadlock<br />
+<br /><br />
 
 ================================================================<br /><br />
 
